@@ -30,7 +30,7 @@ public class Test {
         sb.append("Input: ").append(in).append(EOL);
         sb.append("java.version: ").append(System.getProperty("java.version")).append(EOL);
         sb.append("java.vendor: ").append(System.getProperty("java.vendor")).append(EOL);
-        system.out.println("Testing");
+        System.out.println("Testing");
         return sb.toString();
     }
 
